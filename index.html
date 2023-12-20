@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-------------------------------- alogoritma ------------------------------------->
+
+    <script>
+     // menulis js internal
+
+    // cara membuat variabel
+    // keyword let/const namaVariabel = nilai;
+
+        // input
+        let a = 10;
+        let b = 20;
+
+        // proses
+        let hasil = (a + b);
+
+        // output
+        console.log('hasil', hasil)
+
+    // cara cek type data
+    console.log(typeof(a))
+
+
+
+    // mencari luas segitiga
+
+    // input
+        let alas = 200;
+        let tinggi = 120;
+    // proses
+        let segitiga = alas*tinggi*0.5;
+
+    // output
+        console.log('luas =', segitiga)
+
+    
+
+    // mencari keliling dari persegi, jika diketahui luasnya
+    // luas persegi 64, kelilingnya berapa?
+        let akar = Math.sqrt(64);
+        let sisi = 8;
+
+        let kpersegi= (8*4);
+
+        console.log('keliling =', kpersegi);
+
+        // version teacher
+        let luas = 64;
+        let pinggir = Math.sqrt(luas); //output 8
+        console.log(`sisinya adalah ${pinggir}`)
+    // proses
+        let kelilingpersegi = pinggir*4
+
+    // output
+    console.log(`keliling dari persegi dengan luas ${luas} adalah:${kelilingpersegi}`)
+
+
+    // algoritma nilai akhir
+    let pabp = 90;
+    let mtk = 82;
+    let dpk = 77;
+
+    let mean= (pabp + mtk + dpk) / 3;
+    
+    if(mean >= 80 && mean <= 100){
+        grade= "A";
+    } else if (mean <= 75 && mean<80){
+        grade= "B";
+    } else if (mean >=65 && mean <75){
+        grade = "C";
+    } else if (mean >=45 && mean <65){
+        grade = "D"
+    } else if (mean >=0 && mean <45){
+        grade = "E"
+    } else {
+        grade = "K"
+    }
+
+    console.log(`rata rata nilai ikbal adalah: ${mean}`)
+    console.log(`jadi nilai awal ikbal adalah: ${grade}`)
+
+
+    </script>
+</body>
+</html>
